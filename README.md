@@ -1,5 +1,7 @@
-# BHappy Tunnel Server 0.3.0
+# BHappy Tunnel Server 0.3.1
 
-Пошаговая настройка бесплатного Render — в [SERVER-SETUP-RU.md](SERVER-SETUP-RU.md).
+Исправляет запуск с Base64 ключами Render, включая + / =. Совместим с BHappy для Windows/Android 0.3.0.
 
-Node.js 24, `npm ci`, переменная окружения `BHAPPY_TOKEN` (случайный секрет минимум 32 символа), затем `npm start`. Для удалённого клиента нужен HTTPS/WSS reverse proxy; в Render его предоставляет платформа. Публичный сервис размещается в аккаунте владельца. Готового адреса выхода и секретного ключа в архиве нет.
+Для существующего сервиса замени только server/server.cjs в GitHub, сохрани commit и выполни Render → Manual Deploy → Deploy latest commit. Существующий BHAPPY_TOKEN сохраняется.
+
+Полная инструкция — в SERVER-SETUP-RU.md. Секретных ключей в архиве нет.

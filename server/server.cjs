@@ -6,8 +6,14 @@ const { WebSocketServer } = require("ws");
 const { publicIP, target } = require("../src/tunnel-policy.cjs");
 
 function createTunnelServer({ token, loopbackOnly = false }) {
-  if (!/^[A-Za-z0-9_-]{32,256}$/.test(token || ""))
-    throw Error("Set a random BHAPPY_TOKEN (32+ characters).");
+  if (!token)
+    throw Error("BHAPPY_TOKEN is missing. Add it in Render > Environment.");
+  // Render generateValue creates a Base64-encoded 256-bit secret, including '=' padding.
+  // Keep the same alphabet as the existing clients, without whitespace or header injection.
+  if (typeof token !== "string" || !/^[A-Za-z0-9_+=/.-]{32,256}$/.test(token))
+    throw Error(
+      "BHAPPY_TOKEN must contain 32–256 letters, digits or _ + = / . - (Base64 supported).",
+    );
   const server = http.createServer((req, res) => {
     res.writeHead(req.url === "/healthz" ? 200 : 404, {
       "Content-Type": "text/plain",

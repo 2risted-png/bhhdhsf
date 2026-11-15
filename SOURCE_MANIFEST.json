@@ -1,25 +1,26 @@
 {
-  "version": "0.3.0",
+  "version": "0.3.1",
+  "compatibleBrowserVersion": "0.3.0",
   "files": [
     {
       "file": "package.json",
       "bytes": 273,
-      "sha256": "5d285778d9dde0626d3d834aa5fed0d972fa2a1c7942fe49ac8a0de580c85302"
+      "sha256": "b8e9f842d2ae39abf109b53c65ebd28412711d8fd637319d87d9e3392c5ce676"
     },
     {
       "file": "package-lock.json",
       "bytes": 905,
-      "sha256": "a0c0097cb279e03cd5bc0e08980d59a438c38af65a9b85d2aa4a17ab97da32e6"
+      "sha256": "214ac52fd59e5cbb1c67a55bc1ee6aabef5a3f087a0c6a42d29300d641a660bd"
     },
     {
       "file": "README.md",
-      "bytes": 657,
-      "sha256": "fcadb20b22d18133df0b78d3bdccff484741493475394d859c5f9fd0b086235f"
+      "bytes": 554,
+      "sha256": "1becd48a94375444a5296038743194b31496646d9149bd42bd425f6fef8e882e"
     },
     {
       "file": "SERVER-SETUP-RU.md",
-      "bytes": 7659,
-      "sha256": "c2518997eba127d9b84ffd953d520240b541e2edffbacfde15c51f7feea3b59b"
+      "bytes": 9504,
+      "sha256": "7be4a64a8ccc0f264ebec9510488023f536ea30711c1ffb45120121b50d38c5d"
     },
     {
       "file": "render.yaml",
@@ -38,8 +39,8 @@
     },
     {
       "file": "server/server.cjs",
-      "bytes": 3957,
-      "sha256": "46c7f3a0d06b4d8ac08bbdce568b072d0b7488fbb916f9ebfe0fbeb133200614"
+      "bytes": 4313,
+      "sha256": "cee27dd6c455cc1bc25dc33030a4857cc71a7355a05509cfbb7bfff0bb5dc631"
     },
     {
       "file": "src/tunnel-policy.cjs",
