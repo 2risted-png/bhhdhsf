@@ -1,0 +1,50 @@
+{
+  "version": "0.3.0",
+  "files": [
+    {
+      "file": "package.json",
+      "bytes": 273,
+      "sha256": "5d285778d9dde0626d3d834aa5fed0d972fa2a1c7942fe49ac8a0de580c85302"
+    },
+    {
+      "file": "package-lock.json",
+      "bytes": 905,
+      "sha256": "a0c0097cb279e03cd5bc0e08980d59a438c38af65a9b85d2aa4a17ab97da32e6"
+    },
+    {
+      "file": "README.md",
+      "bytes": 657,
+      "sha256": "fcadb20b22d18133df0b78d3bdccff484741493475394d859c5f9fd0b086235f"
+    },
+    {
+      "file": "SERVER-SETUP-RU.md",
+      "bytes": 7659,
+      "sha256": "c2518997eba127d9b84ffd953d520240b541e2edffbacfde15c51f7feea3b59b"
+    },
+    {
+      "file": "render.yaml",
+      "bytes": 249,
+      "sha256": "dcf8e12a0d7808d167f8e90974dc3c17a79a8e087ef2320282bab720f3a136ae"
+    },
+    {
+      "file": ".dockerignore",
+      "bytes": 112,
+      "sha256": "254cd84c3b23f07bdc22e9aff13a73e8a3d4ed7c17165d1324d748affdc61ffa"
+    },
+    {
+      "file": "server/Dockerfile",
+      "bytes": 284,
+      "sha256": "15ee643babde7a6cd281d0120e8d89c10365ff4aad6eca27de384f2ff763beab"
+    },
+    {
+      "file": "server/server.cjs",
+      "bytes": 3957,
+      "sha256": "46c7f3a0d06b4d8ac08bbdce568b072d0b7488fbb916f9ebfe0fbeb133200614"
+    },
+    {
+      "file": "src/tunnel-policy.cjs",
+      "bytes": 2117,
+      "sha256": "eb7d5727cb17e21486f6c5697db48e70e09ee1aadcc5d5e65ae6a8ca6102c62d"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: bhappy-tunnel
+    runtime: docker
+    plan: free
+    dockerfilePath: ./server/Dockerfile
+    healthCheckPath: /healthz
+    autoDeployTrigger: "off"
+    envVars:
+      - key: BHAPPY_TOKEN
+        generateValue: true
